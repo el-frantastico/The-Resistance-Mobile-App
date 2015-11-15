@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.franciscomartin.theresistance" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launchericon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MultiPlayerSetup"
+            android:label="@string/multi_player_setup"
+            android:parentActivityName=".MainMenu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LobbySetup"
+            android:label="@string/title_activity_lobby_settings"
+            android:parentActivityName=".MultiPlayerSetup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PlayerSetup"
+            android:label="@string/title_activity_player_setup"
+            android:parentActivityName=".LobbySetup"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">The Resistance</string>
+
+    <string name="main_title">The\nResistance</string>
+    <string name="action_settings">Settings</string>
+    <string name="multi_player_setup">Multiplayer Setup</string>
+    <string name="none">None</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lobby_settings">Lobby Setup</string>
+    <string name="title_activity_player_setup">Player Setup</string>
+</resources>
